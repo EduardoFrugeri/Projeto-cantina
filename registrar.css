@@ -20,7 +20,9 @@ html, body{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #ff3131, #ff914d);
+    background: linear-gradient(to right, #ff3131, #ff914d
+    );
+    position: relative;
 }
 
 img{
@@ -32,15 +34,66 @@ h1{
     font-family: var(--fonteh1);
     font-weight: 500;
     color: #e0e0e0;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 5px;
     
     
 }
 
-p{  
+
+h2{  
     color: #e0e0e0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-align: center;
+    
+    
 }
 
+#formulario{
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    
+    
+}
 div p{
     color: white;
+    font-family:sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 0px;
 }
+
+input{
+    margin-bottom: 16px;
+    width: 18vw;
+    height: 7vh;
+    padding: 0vh 0.7vw;
+    border: 0px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 3px;
+}
+
+input:hover{
+    transition:box-shadow 0.3s ease  ;
+    border: 0px solid white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.452);
+}
+
+a:visited{
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+a{
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+
+

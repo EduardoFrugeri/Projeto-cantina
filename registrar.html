@@ -12,14 +12,14 @@
 
     <h1>Criar nova conta</h1>
 
-    <p>Você ja está registrado? <a href="login.html">Login</a></p>
+    <h2>Você ja está registrado? <a href="login.html">Login</a></h2>
 
-    <div>
+    <div id="formulario">
         <form action="registro.php" method="post">
 
-            <p><label for="inome">Nome: </label></p>
+            <p><label for="inome">Nome: <br> </label>  </p>
             <input type="text" name="nome" id="inome" placeholder="Nome" minlength="5" required>
-
+          
             <p><label for="iemail">Email: </label></p>
             <input type="email" name="email" id="iemail" required minlength="10" placeholder="Ex@gmail.com">
 
@@ -32,7 +32,7 @@
             <p><label for="irm">RM/CPF</label></p>
             <input type="number" name="rm" id="irm" maxlength="14">
 
-            <input type="submit" value="registrar">
+            <p><input type="submit" value="registrar"></p>
 
 
 
