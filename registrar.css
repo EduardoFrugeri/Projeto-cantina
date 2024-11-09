@@ -21,7 +21,9 @@ body{
 }
 
 body, html{
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 10vh;
+    
     
 }
 
@@ -33,7 +35,31 @@ body, html{
 img{
     
     width: 26vw;
+  
     margin: 17px;
+}
+
+.container-pai{
+    position: relative;
+}
+
+main {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(190, 190, 190, 0.103);
+    width: 340px;
+    height: 480px;
+    border-radius: 30px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding: 50px;
+    transform: translate(-50%, 2%);
+    margin-bottom: 20px ;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.39);
+    border: 3px solid rgba(255, 0, 0, 0.034);
+    
 }
 
 main  h1{
@@ -77,18 +103,6 @@ main a.loginn:hover {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.288);
 }
 
-main{
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: rgba(190, 190, 190, 0.103);
-    width: 65%;
-    height: 590px;
-    border-radius: 15px;
-    padding: 50px;
-    transform: translate(-50%, -25%);
-}
 
 
 
@@ -136,7 +150,8 @@ form.campos{
 
 form.campos div.inptt{
     display: block;
-    background-color: aqua;
+    background-color: hsla(0, 100%, 51%, 0.038);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.295);
     margin: 10px 5px;
     padding: 10px;
     height: 51px;
@@ -176,6 +191,8 @@ input[type="submit"]{
     font-size: 1.2em;
     cursor: pointer;
     text-shadow: 1px 1px 2px rgba(126, 97, 64, 0.685);
+    background: linear-gradient(to left, rgb(255, 49, 49, 0.06), rgb(255, 145, 77, 0.4)
+    );
 }
 
 input[type="submit"]:hover{

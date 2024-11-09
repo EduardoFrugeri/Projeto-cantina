@@ -11,62 +11,54 @@
 
     <header><img src="img/logo-etec.png" alt="logo" class="img"></header>
 
-    <main>
+    <div class="container-pai">
+        <main>
         
-    <h1>Criar nova conta</h1>
-
-    <h2>Você ja está registrado? <a href="login.html" class="loginn">Login</a></h2>
-
+        <h1>Criar nova conta</h1>
+        <h2>Você ja está registrado? <a href="login.html" class="loginn">Login</a></h2>
         
-
-        <form action="registro.php" method="post" class="campos">
-
-            <div class="inptt">
-                <label for="inome" id="inome">Nome</label>
-                
-                <i class="material-symbols-outlined">
-                    id_card  </i>
-              
-                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" minlength="5" required>
-            </div>
-          
-
-            <div class="inptt">
-                <label for="irm" id="irm">RM/CPF</label>
-                <i class="material-symbols-outlined">
-                    identity_platform
-                </i>
-                
-                <input type="number" name="rm" id="irm" maxlength="14" required placeholder="Digite seu RM/CPF">
-            </div>
-
-            <div class="inptt">
-                <label for="iemail" id="iemail">Email </label>
-                <i class="material-symbols-outlined">
-                    mail
-                </i>
-                
-                <input type="email" name="email" id="iemail" required minlength="10" placeholder="Ex@gmail.com">
-            </div>
-
-            <div class="inptt" id="senha">
-                <label for="isenha" >Senha </label> 
-                <i class="material-symbols-outlined">
-                    lock
-                </i>
-               
-                <input type="senha" name="senha" id="isenha" required minlength="8" placeholder='Digite sua senha'>
-                <a href="forgot your password" class="botao">Esqueceu a senha</a>
-            </div>
-
-
-
-        </form>
+            <form action="registro.php" method="post" class="campos">
+                <div class="inptt">
+                    <label for="inome" id="inome">Nome</label>
         
-        <input type="submit" value="Registrar" id="submit">
-
-   
-</main>
+                    <i class="material-symbols-outlined">
+                        id_card  </i>
+        
+                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" minlength="5" required>
+                </div>
+        
+                <div class="inptt">
+                    <label for="irm" id="irm">RM/CPF</label>
+                    <i class="material-symbols-outlined">
+                        identity_platform
+                    </i>
+        
+                    <input type="number" name="rm" id="irm" maxlength="14" required placeholder="Digite seu RM/CPF">
+                </div>
+                <div class="inptt">
+                    <label for="iemail" id="iemail">Email </label>
+                    <i class="material-symbols-outlined">
+                        mail
+                    </i>
+        
+                    <input type="email" name="email" id="iemail" required minlength="10" placeholder="Ex@gmail.com">
+                </div>
+                <div class="inptt" id="senha">
+                    <label for="isenha" >Senha </label>
+                    <i class="material-symbols-outlined">
+                        lock
+                    </i>
+        
+                    <input type="senha" name="senha" id="isenha" required minlength="8" placeholder='Digite sua senha'>
+                    <a href="forgot your password" class="botao">Esqueceu a senha</a>
+                </div>
+            </form>
+        
+            <input type="submit" value="Registrar" id="submit">
+        
+           
+        </main>
+    </div>
     
 </body>
 </html>
