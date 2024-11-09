@@ -49,21 +49,22 @@ main  h1{
 
 }
 
-main a.loginn, h2{
+main h2{
+    display: block;
     font-family: var(--fontep);
     
     color: rgb(255, 255, 255);
     
     text-align: center;
-    margin: auto;
-    width: 350px;
     
-}
-h2{
+    width: 233px;
     font-size: 1em;
+    
     padding-bottom: 10px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.363);
+    margin: auto;
 }
+
 
 main a.loginn{
     color: rgb(212, 212, 212);
