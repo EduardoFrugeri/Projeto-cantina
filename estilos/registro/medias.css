@@ -4,6 +4,13 @@
 
 
 
+    img{
+        width: 20vw;
+        transition: width .3s, height .3s, padding .3s;
+    transition-timing-function: ease;
+
+    }
+
     main {
         padding: 10px;
         width: 75vw;
