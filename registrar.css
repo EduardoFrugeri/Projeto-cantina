@@ -44,14 +44,14 @@ img{
     justify-content: center;
     height: 98vh;
     width: 100%;
-    margin-top: px;
+   
     
 }
 
 main {
     
     background-color: rgba(190, 190, 190, 0.103);
-    width: 250px;
+    width: 260px;
     
     height: 537px;
     border-radius: 20px;
@@ -79,10 +79,12 @@ main  h1{
     text-align: center;
     font-size: 29.5px;
     
-    word-spacing: 4.5px;
-    padding:0px ;
-    line-height: 55px;   
-    margin-top: -10px;
+    word-spacing: 3px;
+    margin: -10px;
+    
+    margin-top: -8px;
+    padding: 0px 3.1px;
+    padding-bottom: 18px;
 
 
 }
