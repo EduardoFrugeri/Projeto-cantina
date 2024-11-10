@@ -42,6 +42,8 @@ img{
 
 .container-pai{
     position: relative;
+    display: block;
+    margin: auto;
     height: 600px;
 }
 
