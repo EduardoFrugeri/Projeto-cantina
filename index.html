@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registre</title>
-    <link rel="stylesheet" href="registrar.css">
+    <link rel="stylesheet" href="estilos/registrar.css">
+    <link rel="stylesheet" href="estilos/medias.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
 <body>
@@ -19,35 +20,43 @@
         
             <form action="registro.php" method="post" class="campos">
                 <div class="inptt">
-                    <label for="inome" id="inome">Nome</label>
+                    <label for="inome" class="nome">Nome</label>
         
-                    <i class="material-symbols-outlined">
-                        id_card  </i>
+                    <label for="inome" class="inome">
+                        <i class="material-symbols-outlined">
+                            id_card  </i>
+                    </label>
         
                     <input type="text" name="nome" id="inome" placeholder="Digite seu nome" minlength="5" required>
                 </div>
         
                 <div class="inptt">
-                    <label for="irm" id="irm">RM/CPF</label>
-                    <i class="material-symbols-outlined">
-                        identity_platform
-                    </i>
+                    <label for="irm" class="rm">RM/CPF</label>
+                    <label for="irm" class="irm">
+                        <i class="material-symbols-outlined">
+                            identity_platform
+                        </i>
+                    </label>
         
                     <input type="number" name="rm" id="irm" maxlength="14" required placeholder="Digite seu RM/CPF">
                 </div>
                 <div class="inptt">
-                    <label for="iemail" id="iemail">Email </label>
-                    <i class="material-symbols-outlined">
-                        mail
-                    </i>
+                    <label for="iemail" class="email">Email </label>
+                    <label for="iemail" class="iemail">
+                        <i class="material-symbols-outlined">
+                            mail
+                        </i>
+                    </label>
         
                     <input type="email" name="email" id="iemail" required minlength="10" placeholder="Ex@gmail.com">
                 </div>
                 <div class="inptt" id="senha">
-                    <label for="isenha" >Senha </label>
-                    <i class="material-symbols-outlined">
-                        lock
-                    </i>
+                    <label for="isenha" class="senha" >Senha </label>
+                    <label for="isenha" class="isenha">
+                        <i class="material-symbols-outlined">
+                            lock
+                        </i>
+                    </label>
         
                     <input type="senha" name="senha" id="isenha" required minlength="8" placeholder='Digite sua senha'>
                     <a href="forgot your password" class="botao">Esqueceu a senha</a>
