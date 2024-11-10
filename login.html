@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registre</title>
-    <link rel="stylesheet" href="estilos/registro/registrar.css">
-    <link rel="stylesheet" href="estilos/registro/medias.css">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="estilos/login/login.css">
+    <link rel="stylesheet" href="estilos/login/medias.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
 <body>
@@ -15,20 +15,11 @@
     <div class="container-pai">
         <main>
         
-        <h1>Registrar</h1>
-        <h2>Você ja está registrado? <a href="login.html" class="loginn">Login</a></h2>
+        <h1>Login</h1>
+        <h2>Você não tem uma conta? <a href="login.html" class="loginn">Registrar</a></h2>
         
             <form action="registro.php" method="post" class="campos">
-                <div class="inptt">
-                    <label for="inome" class="nome">Nome</label>
-        
-                    <label for="inome" class="inome">
-                        <i class="material-symbols-outlined">
-                            id_card  </i>
-                    </label>
-        
-                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" minlength="5" required>
-                </div>
+                
         
                 <div class="inptt">
                     <label for="irm" class="rm">RM/CPF</label>
@@ -40,16 +31,7 @@
         
                     <input type="number" name="rm" id="irm" maxlength="14" required placeholder="Digite seu RM/CPF">
                 </div>
-                <div class="inptt">
-                    <label for="iemail" class="email">Email </label>
-                    <label for="iemail" class="iemail">
-                        <i class="material-symbols-outlined">
-                            mail
-                        </i>
-                    </label>
-        
-                    <input type="email" name="email" id="iemail" required minlength="10" placeholder="Ex@gmail.com">
-                </div>
+                
                 <div class="inptt" id="senha">
                     <label for="isenha" class="senha" >Senha </label>
                     <label for="isenha" class="isenha">
