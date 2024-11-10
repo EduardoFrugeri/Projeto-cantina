@@ -42,7 +42,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 98vh;
     width: 100%;
     margin-top: px;
     
@@ -51,13 +51,14 @@ img{
 main {
     
     background-color: rgba(190, 190, 190, 0.103);
-    width: 310px;
+    width: 250px;
     
-    height: 513px;
+    height: 537px;
     border-radius: 20px;
     border-bottom-left-radius: 90px;
     border-bottom-right-radius: 90px;
     padding: 17px;
+    padding-bottom: 48px;
     
    
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.39);
