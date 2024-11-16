@@ -17,51 +17,54 @@
         
         <h1>Registrar</h1>
         <h2>Você ja está registrado? <a href="login.html" class="loginn">Login</a></h2>
-        
-            <form action="registro.php" method="post" class="campos">
-                <div class="inptt">
-                    <label for="inome" class="nome">Nome</label>
-        
-                    <label for="inome" class="inome">
-                        <i class="material-symbols-outlined">
-                            id_card  </i>
-                    </label>
-        
-                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" minlength="5" required>
-                </div>
-        
-                <div class="inptt">
-                    <label for="irm" class="rm">RM/CPF</label>
-                    <label for="irm" class="irm">
-                        <i class="material-symbols-outlined">
-                            identity_platform
-                        </i>
-                    </label>
-        
-                    <input type="number" name="rm" id="irm" maxlength="14" required placeholder="Digite seu RM/CPF">
-                </div>
-                <div class="inptt">
-                    <label for="iemail" class="email">Email </label>
-                    <label for="iemail" class="iemail">
-                        <i class="material-symbols-outlined">
-                            mail
-                        </i>
-                    </label>
-        
-                    <input type="email" name="email" id="iemail" required minlength="10" placeholder="Ex@gmail.com">
-                </div>
-                <div class="inptt" id="senha">
-                    <label for="isenha" class="senha" >Senha </label>
-                    <label for="isenha" class="isenha">
-                        <i class="material-symbols-outlined">
-                            lock
-                        </i>
-                    </label>
-        
-                    <input type="senha" name="senha" id="isenha" required minlength="8" placeholder='Digite sua senha'>
-                    <a href="#" class="botao">Esqueceu a senha</a>
-                </div>
-            </form>
+
+        <div class="container-pai2">
+            
+                <form action="registro.php" method="post" class="campos">
+                    <div class="inptt">
+                        <label for="inome" class="nome">Nome</label>
+            
+                        <label for="inome" class="inome">
+                            <i class="material-symbols-outlined">
+                                id_card  </i>
+                        </label>
+            
+                        <input type="text" name="nome" id="inome" placeholder="Digite seu nome" minlength="5" required>
+                    </div>
+            
+                    <div class="inptt">
+                        <label for="irm" class="rm">RM/CPF</label>
+                        <label for="irm" class="irm">
+                            <i class="material-symbols-outlined">
+                                identity_platform
+                            </i>
+                        </label>
+            
+                        <input type="number" name="rm" id="irm" maxlength="14" required placeholder="Digite seu RM/CPF">
+                    </div>
+                    <div class="inptt">
+                        <label for="iemail" class="email">Email </label>
+                        <label for="iemail" class="iemail">
+                            <i class="material-symbols-outlined">
+                                mail
+                            </i>
+                        </label>
+            
+                        <input type="email" name="email" id="iemail" required minlength="10" placeholder="Ex@gmail.com">
+                    </div>
+                    <div class="inptt" id="senha">
+                        <label for="isenha" class="senha" >Senha </label>
+                        <label for="isenha" class="isenha">
+                            <i class="material-symbols-outlined">
+                                lock
+                            </i>
+                        </label>
+            
+                        <input type="senha" name="senha" id="isenha" required minlength="8" placeholder='Digite sua senha'>
+                        <a href="#" class="botao">Esqueceu a senha</a>
+                    </div>
+                </form>
+        </div>
         
             <input type="submit" value="Registrar" id="submit">
         
