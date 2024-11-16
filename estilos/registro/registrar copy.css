@@ -1,4 +1,8 @@
+
 @charset "UTF-8";
+
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -123,22 +127,25 @@ form.campos label.rm, .nome, .email, .senha {
       
 }
 
-form.campos label i{
-    
-    margin-top: 9px;
-    display: inline-block;
-    
-    width: 23px;
-    
-    font-size: 1.7em;
-    text-align: center;
-    
-    padding-right: 10px;
-    
-    text-align: center;
-    cursor: pointer;
-    
-    
+form.campos div.inptt i {
+  margin-top: 9px;
+  display: inline-block;
+  width: 23px;
+  font-size: 1.7em;
+  text-align: center;
+  padding-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 33px;
+}
+form.campos div.inptt i {
+  left: 10px;
+  position: absolute;
+}
+form.campos div.inptt i {
+  left: 10px !important;
+  position: absolute;
 }
 
 
@@ -187,38 +194,60 @@ div.container-pai2 div.inptt input{
 
 }
 
-form.campos div.inptt{
-    background-color: hsla(0, 100%, 51%, 0.038);
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.295);
-    margin: 10px 5px;
-    padding: 10px;
-    height: 51px;
-    padding-top: 6px;
-    border-radius: 9px;
-    margin-bottom: 18px;
-    
-    backdrop-filter: blur(40px);
-    
-    
-
+form.campos div.inptt input {
+  padding: 4px 5px;
+  border: none;
+  border-radius: 5px;
+  width: calc(100% - 60px);
+  height: 20px;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.308);
+  
 }
+
+form.campos div.inptt i {
+  margin-top: 9px;
+  display: inline-block;
+  width: 23px;
+  font-size: 1.7em;
+  text-align: center;
+  padding-right: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+form.campos div.inptt {
+  display: block;
+  background-color: rgba(255, 5, 5, 0.038);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.295);
+  margin: 10px 5px;
+  padding: 10px;
+  height: 51px;
+  padding-top: 6px;
+  border-radius: 9px;
+  margin-bottom: 18px;
+  position: relative;
+  backdrop-filter: blur(40px);
+}
+form.campos input {
+  padding: 4px 5px;
+  border: none;
+  border-radius: 5px;
+  width: calc(100% - 60px);
+  height: 20px;
+  position: absolute;
+  top: 33px;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.308);
+  border: none;
+}
+    
 
 form.campos div.inptt, label{
     cursor: pointer;
 }
 
-form.campos input{
-  
-    
-    padding: 4px 5px;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    height: 20px;
-    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.308);
-    border: none;
-    
-}
+
 
 form.campos input:focus{
     background-color:rgba(255, 255, 255, 0.63) ;
